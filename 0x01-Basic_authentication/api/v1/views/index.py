@@ -32,4 +32,3 @@ def unauthorized() -> str:
     Unauthorized Error handling..
     """
     return abort(401)
-    
