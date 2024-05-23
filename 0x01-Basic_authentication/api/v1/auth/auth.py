@@ -9,7 +9,7 @@ class Auth:
     '''
     manage the API authentication
     '''
-
+    
 def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
     '''
     check if authentication is required to access path
@@ -19,15 +19,14 @@ def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
 def authorization_header(self, request=None) -> str:
     '''
     '''
-    return
+    return None
 
 def current_user(self, request=None) -> TypeVar('User'):
     '''
     '''
     return
 
-if __name__=='__main__':
-    a = Auth()
+
 
 
 
