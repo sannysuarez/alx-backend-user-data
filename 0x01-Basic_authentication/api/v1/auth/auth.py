@@ -29,9 +29,6 @@ def current_user(self, request=None) -> TypeVar('User'):
 if __name__=='__main__':
     a = Auth()
 
-    print(a.require_auth("/api/v1/status/", ["/api/v1/status"]))
-    print(a.authorization_header())
-    print(a.current_user())
 
 
 
