@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from flask import request
-from typing import List, TypeVar
 '''
 Model to manage the API authentication
 '''
@@ -16,13 +15,13 @@ class Auth:
         return False
     
 
-    def authorization_header(self, request=None) -> str:
+    def authorization_header(self, request=None) -> None:
         '''
         ''' 
         return
     
 
-    def current_user(self, request=None) -> typeVar('User'):
+    def current_user(self, request=None) -> None:
         '''
         '''
         return
