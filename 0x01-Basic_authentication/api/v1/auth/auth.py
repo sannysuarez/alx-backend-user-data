@@ -9,7 +9,7 @@ class Auth:
     manage the API authentication
     '''
 
-def require_auth(self, path: str, excluded_paths: list[str]) -> bool:
+def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
     '''
     check if authentication is required to access path
     '''
