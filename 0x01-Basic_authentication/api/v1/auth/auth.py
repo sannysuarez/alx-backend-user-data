@@ -21,7 +21,7 @@ def authorization_header(self, request=None) -> str:
     '''
     return
 
-def current_user(self, request=None) -> typeVar('User'):
+def current_user(self, request=None) -> TypeVar('User'):
     '''
     '''
     return
