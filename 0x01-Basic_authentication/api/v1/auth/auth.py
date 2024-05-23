@@ -15,6 +15,7 @@ class Auth:
          # be slash tolerant: path=/api/v1/status and path=/api/v1/status/
         if path and not path.endwith('/'):
             path = path + '/'   
+            return path
         # Return True if path is known
         if not path or path not in excluded_paths:
             return True
